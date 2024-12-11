@@ -1,0 +1,15 @@
+/* todo.component.scss */
+.loading-container {
+    display: flex;            // Flexbox layout
+    justify-content: center;  // Center horizontally
+    align-items: center;      // Center vertically
+    height: 100vh;            // Full viewport height
+    position: fixed;          // Fix the spinner in place
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7); // Optional background overlay
+    z-index: 9999;            // Ensures it appears above other content
+  }
+  

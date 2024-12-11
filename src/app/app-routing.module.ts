@@ -6,11 +6,15 @@ import { AuthGuard } from './_guard';
 import { NotFoundPageComponent } from './notfoundpage';
 import { LoginComponent } from './login';
 import { LoadingComponent } from './loading';
-
+import { TodoComponent } from './todo/todo.component';
 
 // const routes: Routes = [];
 
 const routes: Routes = [
+  {
+    path: "todo",
+    component: TodoComponent,
+  },
   {
     path: "login",
     component: LoginComponent,
@@ -53,7 +57,8 @@ const routes: Routes = [
     path: "**",
     component: NotFoundPageComponent
   },
-  // ]
+  
+  
 ];
 
 @NgModule({

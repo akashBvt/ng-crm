@@ -18,6 +18,8 @@ import { NotFoundPageComponent } from './notfoundpage';
 import { ConfirmDialog } from './shared/dialog.component';
 import { LoadingComponent } from  './loading';
 import { AuthGuard } from './_guard';
+import { TodoComponent } from './todo/todo.component';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ import { AuthGuard } from './_guard';
     NotFoundPageComponent,
     ConfirmDialog,
     LoadingComponent,
-    AppComponent
+    AppComponent,
+    TodoComponent
   ],
   imports: [
     BrowserModule,
